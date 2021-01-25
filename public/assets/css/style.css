@@ -1,0 +1,125 @@
+#home {
+    background: url(../img/intro-bg.png);
+    background-position: bottom;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+
+.circle {
+    padding: 29px 30px;
+    border: 1px solid #1251F3;
+    border-radius: 50%;
+    color: #1251F3;
+}
+
+#prosedur {
+    background: #E0E7FD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5) inset;
+}
+
+#prosedur .card {
+    overflow: hidden;
+}
+
+#prosedur .card .card-body {
+    padding-left: 90px;
+}
+
+#footer {
+    background: #0045FF;
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#footer p {
+    color: #cccccc;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+#footer p:hover {
+    color: #fff;
+    padding-left: 15px;
+    transition: .5s ease-in-out;
+}
+
+.footer {
+    background: #0038D0;
+    padding: 18px;
+    color: #fff;
+}
+
+#prosedur .card .card-body .card-body-icon {
+    position: absolute;
+    opacity: .7;
+    font-size: 65px;
+    transform: rotate(15deg);
+    left: -20px;
+}
+
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    animation: fadeIn .5s ease;
+    -webkit-animation: fadeIn .5s ease;
+}
+
+.nav-item.active a.nav-link {
+    color: #1251F3!important;
+}
+
+@keyframes fadeIn {
+    0% {
+        top: -20%;
+    } 100% {
+        top: 0;
+    }
+}
+
+@media (min-width: 900px){
+    #home {
+        padding-top: 90px;
+    }
+}
+
+.card-home .card {
+    border-left: 3px solid #0045FF;
+    color: rgba(0, 0, 0, .7);
+    font-family: courier new;
+}
+
+.card-home a {
+    text-decoration: none;
+}
+
+.pre-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 99999999;
+}
+
+.loader-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
